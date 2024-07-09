@@ -1,0 +1,21 @@
+﻿/* Style for the navigation bar */
+.nav {
+    background-color: #e0f7fa; /* Light blue background color */
+}
+
+.nav-item .nav-link {
+    color: #000; /* Text color */
+    padding: 10px 15px; /* Padding for links */
+    text-decoration: none; /* Remove underline */
+}
+
+    .nav-item .nav-link:hover {
+        background-color: #007BFF; /* Strong blue color on hover */
+        color: #fff; /* White text color on hover */
+        transition: background-color 0.3s ease-in-out; /* Smooth transition */
+    }
+
+    /* Add some styles for active link */
+    .nav-item .nav-link.active {
+        font-weight: bold; /* Bold text for active link */
+    }
